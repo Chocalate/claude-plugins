@@ -5,5 +5,22 @@
       "Read(//d/IdeaWorkspace/ai-agent/target/**)",
       "Read(//d/LenovoSoftstore/Install/apache-maven-3.8.6/conf/**)"
     ]
+  },
+  "pluginMarketplaces": [
+    "Chocalate/claude-plugins"
+  ],
+  "hooks": {
+    "PostToolUse": [{
+      "matcher": "Edit|Write",
+      "hooks": [{
+        "type": "command",
+        "command": "jq -r '.tool_input.file_path' | xargs npx prettier --write"
+      }]
+    }],
+    "PreToolUse": [{
+      "matcher": "Edit|Write",
+      "hooks": [{ "type": "command",
+        "command": "~/.claude/hooks/protect.sh" }]
+    }]
   }
 }
