@@ -1,5 +1,4 @@
 {
-  "hooks": {
     "PostToolUse": [{
       "matcher": "Edit|Write",
       "hooks": [{
@@ -12,5 +11,4 @@
       "hooks": [{ "type": "command",
         "command": "~/.claude/hooks/protect.sh" }]
     }]
-  }
 }
