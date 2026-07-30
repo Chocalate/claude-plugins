@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "claude-plugin",
+      "name": "my-claude-plugin",
       "source": "./skills/code-review",
       "version": "1.0.0",
       "description": "代码审查套件：团队协作"
