@@ -4,5 +4,5 @@
   "version": "0.0.1",
   "description": "代码审查工具",
   "author": "Chocalate",
-  "hooks": "./hooks/hooks.json"
+  "hooks": true
 }
