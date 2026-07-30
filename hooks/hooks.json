@@ -9,6 +9,6 @@
     "PreToolUse": [{
       "matcher": "Edit|Write",
       "hooks": [{ "type": "command",
-        "command": "~/.claude/hooks/protect.sh" }]
+        "command": "./hooks/protect.sh" }]
     }]
 }
