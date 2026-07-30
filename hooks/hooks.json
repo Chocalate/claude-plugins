@@ -1,14 +1,4 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(find d:/IdeaWorkspace/ai-agent/target/classes -type f -path \"*advisor*\" -o -path \"*Advisor*\" | sort)",
-      "Read(//d/IdeaWorkspace/ai-agent/target/**)",
-      "Read(//d/LenovoSoftstore/Install/apache-maven-3.8.6/conf/**)"
-    ]
-  },
-  "pluginMarketplaces": [
-    "Chocalate/claude-plugins"
-  ],
   "hooks": {
     "PostToolUse": [{
       "matcher": "Edit|Write",
