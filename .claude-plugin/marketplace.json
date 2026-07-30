@@ -1,14 +1,14 @@
 {
-  "name": "团队插件库",
+  "name": "choca-custom-plugin-hub",
   "owner": {
-    "name":"Chocolate"
+    "name": "Chocalate"
   },
   "plugins": [
     {
-      "name": "my-team-plugin",
+      "name": "my-review-kit",
       "source": "./skills/code-review",
-      "version": "1.0.0",
-      "description": "代码审查套件：团队协作"
+      "description": "代码审查工具 my-review-kit",
+      "version": "0.0.1"
     }
   ]
 }
