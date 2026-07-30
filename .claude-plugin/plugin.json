@@ -1,5 +1,8 @@
 {
-  "name": "claude-plugin",
+  "name": "choca-custom-plugin-hub",
   "version": "1.0.0",
-  "description": "代码审查套件：团队协作"
+  "description": "代码审查套件：团队协作",
+  "skills": ["./skills/*"],
+  "hooks": true
 }
+
