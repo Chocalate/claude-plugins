@@ -3,14 +3,14 @@
       "matcher": "Edit|Write",
       "hooks": [{
         "type": "command",
-        "command": "bash ./hooks/prettier.sh"
+        "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/prettier.sh\""
       }]
     }],
     "PreToolUse": [{
       "matcher": "Edit|Write",
       "hooks": [{
         "type": "command",
-        "command": "bash ./hooks/protect.sh"
+        "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/protect.sh\""
       }]
     }]
 }
