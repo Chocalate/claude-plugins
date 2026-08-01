@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "my-review-kit",
-      "source": "./skills/code-review",
+      "source": "./",
       "description": "代码审查工具 my-review-kit",
       "version": "0.0.1"
     }
