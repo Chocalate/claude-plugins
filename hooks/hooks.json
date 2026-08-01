@@ -3,12 +3,14 @@
       "matcher": "Edit|Write",
       "hooks": [{
         "type": "command",
-        "command": "jq -r '.tool_input.file_path' | xargs npx prettier --write"
+        "command": "bash ./hooks/prettier.sh"
       }]
     }],
     "PreToolUse": [{
       "matcher": "Edit|Write",
-      "hooks": [{ "type": "command",
-        "command": "./hooks/protect.sh" }]
+      "hooks": [{
+        "type": "command",
+        "command": "bash ./hooks/protect.sh"
+      }]
     }]
 }
