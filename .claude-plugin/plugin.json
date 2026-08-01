@@ -1,8 +1,5 @@
 {
   "name": "choca-custom-plugin-hub",
   "version": "1.0.0",
-  "description": "代码审查套件：团队协作",
-  "skills": ["../skills/*.md"],
-  "hooks": "../hooks/hooks.json",
-  "agents": ["../agents/*.md"]
+  "description": "代码审查套件：团队协作"
 }
