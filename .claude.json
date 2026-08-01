@@ -14,6 +14,5 @@
         "GITHUB_PERSONAL_ACCESS_TOKEN": ""
       }
     }
-  },
- "hooks": "./hooks/hooks.json"
+  }
 }
