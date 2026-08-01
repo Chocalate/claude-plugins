@@ -1,4 +1,6 @@
 {
+  "description": "代码审查工具 hooks",
+  "hooks": {
     "PostToolUse": [{
       "matcher": "Edit|Write",
       "hooks": [{
@@ -13,4 +15,5 @@
         "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/protect.sh\""
       }]
     }]
+  }
 }
